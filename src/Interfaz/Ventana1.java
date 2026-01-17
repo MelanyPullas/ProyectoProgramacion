@@ -27,7 +27,7 @@ public class Ventana1 extends JFrame {
     private JButton button7;
 
     public Ventana1() {
-        super("Mi Aplicación");
+        super("Tech System Core");
         //Configuraciones de la ventana
         configurarVentana();
         //Agupacion de los ajustes para que no haya tanta cosa en el constructor

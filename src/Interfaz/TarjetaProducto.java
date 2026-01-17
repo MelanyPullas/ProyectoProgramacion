@@ -26,7 +26,7 @@ public class TarjetaProducto extends JFrame {
         // Asignar el texto que se va a mostrar
         $$$setupUI$$$();
         txtNombre.setText(nombre);
-        txtPrecio.setText(precio);
+        txtPrecio.setText("$ " + precio);
         iconCelular.setIcon(imagen);
 
         this.skuGuardado = sku;

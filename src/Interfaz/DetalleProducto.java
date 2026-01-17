@@ -49,7 +49,7 @@ public class DetalleProducto extends JDialog {
         txtNombre.setText(nombre);
         txtSKU.setText(SKU);
         txtMarca.setText(marca);
-        txtPrecio.setText(precio);
+        txtPrecio.setText("$ " + precio);
         txtStock.setText(stock + " unidades");
         descripciónTextArea.setText(descripcion);
         icon.setIcon(rutaImagen);
